@@ -610,7 +610,10 @@
 
 <body>
     <?php include 'includes/navbar.php' ?>
-
+    <br>
+    <br>
+    <br>
+    <br>
     <!-- Hero Section -->
     <section class="about-hero">
         <div class="container">
