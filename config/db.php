@@ -13,10 +13,10 @@ try {
     ];
 
     $pdo = new PDO($dsn, $username, $password, $options);
-    echo "Connected to the database successfully!";
+    // echo "Connected to the database successfully!";
 
 } catch (PDOException $e) {
     error_log("Database connection failed: " . $e->getMessage());
-    // die("Connection failed. Please try again later.");
+    die("Connection failed. Please try again later.");
 }
 ?>

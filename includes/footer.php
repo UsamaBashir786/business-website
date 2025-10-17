@@ -12,8 +12,8 @@
                 </p>
             </div>
             <div class="newsletter-form-wrapper">
-                <form class="newsletter-form" onsubmit="return false;">
-                    <input type="email" class="newsletter-input" placeholder="Enter your email address" required />
+                <form class="newsletter-form" method="POST" action="newsletter-subscribe.php">
+                    <input type="email" name="email" class="newsletter-input" placeholder="Enter your email address" required />
                     <button type="submit" class="newsletter-btn">
                         <span>Subscribe</span>
                         <i class="fas fa-paper-plane"></i>
@@ -24,13 +24,10 @@
     </div>
 </section>
 
-<!-- Main Footer -->
 <footer class="footer">
-    <!-- Footer Top -->
     <div class="footer-top">
         <div class="footer-container">
             <div class="footer-grid">
-                <!-- Company Info -->
                 <div class="footer-column">
                     <div class="footer-logo">
                         <div class="footer-logo-icon">
@@ -60,8 +57,6 @@
                         </a>
                     </div>
                 </div>
-
-                <!-- Quick Links -->
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
@@ -90,8 +85,6 @@
                         </li>
                     </ul>
                 </div>
-
-                <!-- Our Services -->
                 <div class="footer-column">
                     <h3>Our Services</h3>
                     <ul class="footer-links">
@@ -127,8 +120,6 @@
                         </li>
                     </ul>
                 </div>
-
-                <!-- Contact Info -->
                 <div class="footer-column">
                     <h3>Contact Info</h3>
                     <div class="contact-item">
@@ -164,8 +155,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Footer Middle -->
     <div class="footer-middle">
         <div class="footer-container">
             <div class="footer-features">
@@ -208,8 +197,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Footer Bottom -->
     <div class="footer-bottom">
         <div class="footer-container">
             <div class="footer-bottom-content">

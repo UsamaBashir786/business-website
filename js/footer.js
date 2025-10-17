@@ -15,12 +15,3 @@
             behavior: "smooth",
         });
     });
-
-    // Newsletter Form
-    const newsletterForm = document.querySelector(".newsletter-form");
-    newsletterForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const email = newsletterForm.querySelector("input").value;
-        alert(`Thank you for subscribing with: ${email}`);
-        newsletterForm.reset();
-    });
