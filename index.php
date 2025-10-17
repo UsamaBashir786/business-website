@@ -820,441 +820,445 @@ $first_name = $_SESSION['first_name'];
 </head>
 
 <body>
-    <?php include 'includes/navbar.php' ?>
+    <?php include 'includes/loader.php' ?>
     
-    <div class="d-theme-none">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-left">
-            <div class="hero-badge">
-                <i class="fas fa-award"></i>
-                CQC Registered & Fully Compliant
-            </div>
-            <h1>
-                Professional Care in the <span class="highlight">Comfort of Your Home</span>
-            </h1>
-            <p>
-                Compassionate, reliable, and flexible services designed to support independence, dignity, and comfort for you and your loved ones.
-            </p>
-            <div class="hero-buttons">
-                <a href="clients.php" class="btn btn-primary">
-                    Get Started Today
-                    <i class="fas fa-arrow-right"></i>
-                </a>
-                <a href="services.php" class="btn btn-secondary">
-                    Explore Services
-                </a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">24/7</span>
-                    <span class="stat-label">Care Available</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">DBS Checked</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">15+</span>
-                    <span class="stat-label">Years Experience</span>
-                </div>
-            </div>
+    <div class="actual-content" id="actualContent">
+        <?php include 'includes/navbar.php' ?>
+        
+        <div class="d-theme-none">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
-        <div class="hero-right">
-            <div class="hero-image-wrapper">
-                <i class="fas fa-image"></i>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services-section">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-subtitle">Our Services</div>
-                <h2 class="section-title">Comprehensive Care Solutions</h2>
-                <p class="section-description">
-                    From daily assistance to specialized medical care, we provide a full range of services tailored to your unique needs
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-left">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    CQC Registered & Fully Compliant
+                </div>
+                <h1>
+                    Professional Care in the <span class="highlight">Comfort of Your Home</span>
+                </h1>
+                <p>
+                    Compassionate, reliable, and flexible services designed to support independence, dignity, and comfort for you and your loved ones.
                 </p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-home"></i>
-                    </div>
-                    <h3>Home Support Services</h3>
-                    <p>Housekeeping, meal planning, grocery shopping, and daily errands to keep your home running smoothly.</p>
-                    <a href="services.php#home-support" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-user-friends"></i>
-                    </div>
-                    <h3>Companionship Support</h3>
-                    <p>Friendly conversations, outings, and activities to prevent loneliness and promote wellbeing.</p>
-                    <a href="services.php#companionship" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-hands-helping"></i>
-                    </div>
-                    <h3>Personal Care</h3>
-                    <p>Assistance with bathing, dressing, grooming, mobility, and all daily personal care needs.</p>
-                    <a href="services.php#personal-care" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-heartbeat"></i>
-                    </div>
-                    <h3>Medical Care</h3>
-                    <p>Professional medical support including wound care, vital monitoring, and medication management.</p>
-                    <a href="services.php#medical-care" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Specialist Care</h3>
-                    <p>Expert care for dementia, stroke recovery, palliative care, and respite support.</p>
-                    <a href="services.php#specialist-care" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3>24/7 Live-In Care</h3>
-                    <p>Round-the-clock support, transportation, wellness checks, and continuous care whenever needed.</p>
-                    <a href="services.php#additional-support" class="service-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-image">
-                    <div class="about-image-main">
-                        <i class="fas fa-image"></i>
-                    </div>
-                    <div class="about-stats-box">
-                        <h4>500+</h4>
-                        <p>Families Served</p>
-                    </div>
-                </div>
-                <div class="about-text">
-                    <div class="section-subtitle">About Us</div>
-                    <h2>Client-Centered, Family-Oriented Care Solutions</h2>
-                    <p>
-                        At Evolve Home and Care Solutions, our focus is on people. We recognize that balancing professional and personal commitments can leave little time for managing household responsibilities or providing consistent care for vulnerable and loved ones.
-                    </p>
-                    <div class="about-features">
-                        <div class="about-feature">
-                            <div class="about-feature-icon">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <div class="about-feature-text">
-                                <h4>Experienced Team</h4>
-                                <p>Friendly, approachable, and hardworking professionals</p>
-                            </div>
-                        </div>
-                        <div class="about-feature">
-                            <div class="about-feature-icon">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <div class="about-feature-text">
-                                <h4>Diverse Expertise</h4>
-                                <p>Cultural sensitivity and flexibility to meet all needs</p>
-                            </div>
-                        </div>
-                        <div class="about-feature">
-                            <div class="about-feature-icon">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <div class="about-feature-text">
-                                <h4>Quality Assured</h4>
-                                <p>CQC registered and fully compliant services</p>
-                            </div>
-                        </div>
-                        <div class="about-feature">
-                            <div class="about-feature-icon">
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <div class="about-feature-text">
-                                <h4>Peace of Mind</h4>
-                                <p>Reliable support you can trust</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="about.php" class="btn btn-primary">
-                        Learn More About Us
+                <div class="hero-buttons">
+                    <a href="clients.php" class="btn btn-primary">
+                        Get Started Today
                         <i class="fas fa-arrow-right"></i>
                     </a>
+                    <a href="services.php" class="btn btn-secondary">
+                        Explore Services
+                    </a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Values Section -->
-    <section class="values-section">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-subtitle">Our Core Values</div>
-                <h2 class="section-title">What Drives Us Every Day</h2>
-                <p class="section-description">
-                    The principles that guide everything we do and every decision we make
-                </p>
-            </div>
-            <div class="values-grid">
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-users"></i>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Care Available</span>
                     </div>
-                    <h3>Community</h3>
-                    <p>We value diversity and honor the cultural, spiritual, and personal needs of individuals, families, and communities.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-shield-alt"></i>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">DBS Checked</span>
                     </div>
-                    <h3>Trust</h3>
-                    <p>We build relationships with honesty, reliability, and confidentiality at every step of our journey together.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Compassion</h3>
-                    <p>We care with empathy, kindness, and respect, treating every client as a valued member of our family.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Section -->
-    <section class="why-choose-section">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-subtitle">Why Choose Us</div>
-                <h2 class="section-title">What Makes Us Different</h2>
-                <p class="section-description">
-                    Dedicated to providing exceptional care with professionalism and heart
-                </p>
-            </div>
-
-            <div class="feature-row">
-                <div class="feature-visual">
-                    <div class="feature-number">01</div>
-                    <div class="feature-box">
-                        <i class="fas fa-user-shield"></i>
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
                     </div>
                 </div>
-                <div class="feature-content">
-                    <h3>Trained & Qualified Professionals</h3>
-                    <p>
-                        Every member of our team is thoroughly vetted, professionally trained, and committed to delivering the highest standards of care.
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <i class="fas fa-image"></i>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Services Section -->
+        <section class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Our Services</div>
+                    <h2 class="section-title">Comprehensive Care Solutions</h2>
+                    <p class="section-description">
+                        From daily assistance to specialized medical care, we provide a full range of services tailored to your unique needs
                     </p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> All staff DBS checked and verified</li>
-                        <li><i class="fas fa-check-circle"></i> Regular training in first aid and safeguarding</li>
-                        <li><i class="fas fa-check-circle"></i> CQC registered and fully compliant</li>
-                        <li><i class="fas fa-check-circle"></i> Ongoing professional development</li>
-                    </ul>
                 </div>
-            </div>
-
-            <div class="feature-row reverse">
-                <div class="feature-visual">
-                    <div class="feature-number">02</div>
-                    <div class="feature-box">
-                        <i class="fas fa-calendar-alt"></i>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>Flexible Care Packages</h3>
-                    <p>
-                        We understand that everyone's needs are different. That's why we offer fully customizable care packages to suit your schedule and requirements.
-                    </p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> From a few hours to 24/7 live-in care</li>
-                        <li><i class="fas fa-check-circle"></i> Flexible scheduling around your lifestyle</li>
-                        <li><i class="fas fa-check-circle"></i> Short-term or long-term support options</li>
-                        <li><i class="fas fa-check-circle"></i> Adaptable as your needs change</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="feature-row">
-                <div class="feature-visual">
-                    <div class="feature-number">03</div>
-                    <div class="feature-box">
-                        <i class="fas fa-user-check"></i>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>Personalized Approach</h3>
-                    <p>
-                        We take the time to understand your unique situation, preferences, and goals to create a care plan that's truly tailored to you.
-                    </p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Detailed care assessment and planning</li>
-                        <li><i class="fas fa-check-circle"></i> Dedicated care coordinators</li>
-                        <li><i class="fas fa-check-circle"></i> Regular reviews and adjustments</li>
-                        <li><i class="fas fa-check-circle"></i> Family involvement encouraged</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="feature-row reverse">
-                <div class="feature-visual">
-                    <div class="feature-number">04</div>
-                    <div class="feature-box">
-                        <i class="fas fa-home-heart"></i>
-                    </div>
-                </div>
-                <div class="feature-content">
-                    <h3>Local & Community Focused</h3>
-                    <p>
-                        As a local, family-oriented provider, we're responsive to your needs and deeply committed to our community.
-                    </p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Consistent support from familiar faces</li>
-                        <li><i class="fas fa-check-circle"></i> Quick response times</li>
-                        <li><i class="fas fa-check-circle"></i> Understanding of local resources</li>
-                        <li><i class="fas fa-check-circle"></i> Building lasting relationships</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials-section">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-subtitle">Testimonials</div>
-                <h2 class="section-title">What Families Say About Us</h2>
-                <p class="section-description">
-                    Real experiences from the families we've had the privilege to serve
-                </p>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar">SM</div>
-                        <div class="testimonial-info">
-                            <h4>Sarah Mitchell</h4>
-                            <div class="testimonial-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
                         </div>
-                    </div>
-                    <p class="testimonial-text">
-                        "The care team has been absolutely wonderful. They treat my mother with such kindness and respect. It's given our family incredible peace of mind knowing she's in such good hands."
-                    </p>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar">JT</div>
-                        <div class="testimonial-info">
-                            <h4>James Thompson</h4>
-                            <div class="testimonial-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">
-                        "Professional, reliable, and genuinely caring. The team has made such a positive difference in my father's life. I couldn't recommend them more highly."
-                    </p>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar">EP</div>
-                        <div class="testimonial-info">
-                            <h4>Emily Parker</h4>
-                            <div class="testimonial-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">
-                        "From the first consultation to ongoing care, everything has been seamless. The team is flexible, understanding, and truly goes above and beyond."
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-box">
-                <div class="cta-content">
-                    <h2>Ready to Get Started?</h2>
-                    <p>
-                        Contact us today for a free consultation and discover how we can provide the support you and your loved ones deserve.
-                    </p>
-                    <div class="cta-buttons">
-                        <a href="clients.php" class="btn btn-white">
-                            <i class="fas fa-phone"></i>
-                            Get in Touch
+                        <h3>Home Support Services</h3>
+                        <p>Housekeeping, meal planning, grocery shopping, and daily errands to keep your home running smoothly.</p>
+                        <a href="services.php#home-support" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="careers.php" class="btn btn-outline">
-                            <i class="fas fa-briefcase"></i>
-                            Join Our Team
+                    </div>
+    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <h3>Companionship Support</h3>
+                        <p>Friendly conversations, outings, and activities to prevent loneliness and promote wellbeing.</p>
+                        <a href="services.php#companionship" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h3>Personal Care</h3>
+                        <p>Assistance with bathing, dressing, grooming, mobility, and all daily personal care needs.</p>
+                        <a href="services.php#personal-care" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Medical Care</h3>
+                        <p>Professional medical support including wound care, vital monitoring, and medication management.</p>
+                        <a href="services.php#medical-care" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Specialist Care</h3>
+                        <p>Expert care for dementia, stroke recovery, palliative care, and respite support.</p>
+                        <a href="services.php#specialist-care" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>24/7 Live-In Care</h3>
+                        <p>Round-the-clock support, transportation, wellness checks, and continuous care whenever needed.</p>
+                        <a href="services.php#additional-support" class="service-link">
+                            Learn More <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Back to Top Button -->
-    <?php include 'includes/back-to-top.php'; ?>
-
-    <!-- Footer Section -->
-    <?php include 'includes/footer.php'; ?>
+        </section>
+    
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="about-image-main">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <div class="about-stats-box">
+                            <h4>500+</h4>
+                            <p>Families Served</p>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <div class="section-subtitle">About Us</div>
+                        <h2>Client-Centered, Family-Oriented Care Solutions</h2>
+                        <p>
+                            At Evolve Home and Care Solutions, our focus is on people. We recognize that balancing professional and personal commitments can leave little time for managing household responsibilities or providing consistent care for vulnerable and loved ones.
+                        </p>
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <div class="about-feature-icon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="about-feature-text">
+                                    <h4>Experienced Team</h4>
+                                    <p>Friendly, approachable, and hardworking professionals</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="about-feature-text">
+                                    <h4>Diverse Expertise</h4>
+                                    <p>Cultural sensitivity and flexibility to meet all needs</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="about-feature-text">
+                                    <h4>Quality Assured</h4>
+                                    <p>CQC registered and fully compliant services</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="about-feature-text">
+                                    <h4>Peace of Mind</h4>
+                                    <p>Reliable support you can trust</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="about.php" class="btn btn-primary">
+                            Learn More About Us
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Values Section -->
+        <section class="values-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Our Core Values</div>
+                    <h2 class="section-title">What Drives Us Every Day</h2>
+                    <p class="section-description">
+                        The principles that guide everything we do and every decision we make
+                    </p>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community</h3>
+                        <p>We value diversity and honor the cultural, spiritual, and personal needs of individuals, families, and communities.</p>
+                    </div>
+    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Trust</h3>
+                        <p>We build relationships with honesty, reliability, and confidentiality at every step of our journey together.</p>
+                    </div>
+    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Compassion</h3>
+                        <p>We care with empathy, kindness, and respect, treating every client as a valued member of our family.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Why Choose Section -->
+        <section class="why-choose-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Why Choose Us</div>
+                    <h2 class="section-title">What Makes Us Different</h2>
+                    <p class="section-description">
+                        Dedicated to providing exceptional care with professionalism and heart
+                    </p>
+                </div>
+    
+                <div class="feature-row">
+                    <div class="feature-visual">
+                        <div class="feature-number">01</div>
+                        <div class="feature-box">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Trained & Qualified Professionals</h3>
+                        <p>
+                            Every member of our team is thoroughly vetted, professionally trained, and committed to delivering the highest standards of care.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> All staff DBS checked and verified</li>
+                            <li><i class="fas fa-check-circle"></i> Regular training in first aid and safeguarding</li>
+                            <li><i class="fas fa-check-circle"></i> CQC registered and fully compliant</li>
+                            <li><i class="fas fa-check-circle"></i> Ongoing professional development</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="feature-row reverse">
+                    <div class="feature-visual">
+                        <div class="feature-number">02</div>
+                        <div class="feature-box">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Flexible Care Packages</h3>
+                        <p>
+                            We understand that everyone's needs are different. That's why we offer fully customizable care packages to suit your schedule and requirements.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> From a few hours to 24/7 live-in care</li>
+                            <li><i class="fas fa-check-circle"></i> Flexible scheduling around your lifestyle</li>
+                            <li><i class="fas fa-check-circle"></i> Short-term or long-term support options</li>
+                            <li><i class="fas fa-check-circle"></i> Adaptable as your needs change</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="feature-row">
+                    <div class="feature-visual">
+                        <div class="feature-number">03</div>
+                        <div class="feature-box">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Personalized Approach</h3>
+                        <p>
+                            We take the time to understand your unique situation, preferences, and goals to create a care plan that's truly tailored to you.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Detailed care assessment and planning</li>
+                            <li><i class="fas fa-check-circle"></i> Dedicated care coordinators</li>
+                            <li><i class="fas fa-check-circle"></i> Regular reviews and adjustments</li>
+                            <li><i class="fas fa-check-circle"></i> Family involvement encouraged</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="feature-row reverse">
+                    <div class="feature-visual">
+                        <div class="feature-number">04</div>
+                        <div class="feature-box">
+                            <i class="fas fa-home-heart"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Local & Community Focused</h3>
+                        <p>
+                            As a local, family-oriented provider, we're responsive to your needs and deeply committed to our community.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Consistent support from familiar faces</li>
+                            <li><i class="fas fa-check-circle"></i> Quick response times</li>
+                            <li><i class="fas fa-check-circle"></i> Understanding of local resources</li>
+                            <li><i class="fas fa-check-circle"></i> Building lasting relationships</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Testimonials</div>
+                    <h2 class="section-title">What Families Say About Us</h2>
+                    <p class="section-description">
+                        Real experiences from the families we've had the privilege to serve
+                    </p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">SM</div>
+                            <div class="testimonial-info">
+                                <h4>Sarah Mitchell</h4>
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            "The care team has been absolutely wonderful. They treat my mother with such kindness and respect. It's given our family incredible peace of mind knowing she's in such good hands."
+                        </p>
+                    </div>
+    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">JT</div>
+                            <div class="testimonial-info">
+                                <h4>James Thompson</h4>
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            "Professional, reliable, and genuinely caring. The team has made such a positive difference in my father's life. I couldn't recommend them more highly."
+                        </p>
+                    </div>
+    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">EP</div>
+                            <div class="testimonial-info">
+                                <h4>Emily Parker</h4>
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            "From the first consultation to ongoing care, everything has been seamless. The team is flexible, understanding, and truly goes above and beyond."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-box">
+                    <div class="cta-content">
+                        <h2>Ready to Get Started?</h2>
+                        <p>
+                            Contact us today for a free consultation and discover how we can provide the support you and your loved ones deserve.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="clients.php" class="btn btn-white">
+                                <i class="fas fa-phone"></i>
+                                Get in Touch
+                            </a>
+                            <a href="careers.php" class="btn btn-outline">
+                                <i class="fas fa-briefcase"></i>
+                                Join Our Team
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Back to Top Button -->
+        <?php include 'includes/back-to-top.php'; ?>
+    
+        <!-- Footer Section -->
+        <?php include 'includes/footer.php'; ?>
+    </div>
 
     <!-- JavaScript Files -->
     <script src="js/script.js"></script>

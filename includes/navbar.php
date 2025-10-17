@@ -73,7 +73,7 @@
                     </a>
                     <div class="dropdown-menu">
                         <div class="dropdown-header">Our Services</div>
-                        <a href="index.php-support" class="dropdown-item">
+                        <a href="services.php#home-support" class="dropdown-item">
                             <div class="dropdown-item-icon">
                                 <i class="fas fa-home"></i>
                             </div>
@@ -82,7 +82,7 @@
                                 <div class="dropdown-item-desc">Daily living assistance at home</div>
                             </div>
                         </a>
-                        <a href="#companionship" class="dropdown-item">
+                        <a href="services.php#companionship" class="dropdown-item">
                             <div class="dropdown-item-icon">
                                 <i class="fas fa-users"></i>
                             </div>
@@ -91,7 +91,7 @@
                                 <div class="dropdown-item-desc">Emotional and social wellbeing</div>
                             </div>
                         </a>
-                        <a href="#personal-care" class="dropdown-item">
+                        <a href="services.php#personal-care" class="dropdown-item">
                             <div class="dropdown-item-icon">
                                 <i class="fas fa-hand-holding-heart"></i>
                             </div>
@@ -100,7 +100,7 @@
                                 <div class="dropdown-item-desc">Dignified personal care</div>
                             </div>
                         </a>
-                        <a href="#medical-care" class="dropdown-item">
+                        <a href="services.php#medical-care" class="dropdown-item">
                             <div class="dropdown-item-icon">
                                 <i class="fas fa-user-md"></i>
                             </div>
@@ -109,7 +109,7 @@
                                 <div class="dropdown-item-desc">Professional medical support</div>
                             </div>
                         </a>
-                        <a href="#specialist-care" class="dropdown-item">
+                        <a href="services.php#specialist-care" class="dropdown-item">
                             <div class="dropdown-item-icon">
                                 <i class="fas fa-heartbeat"></i>
                             </div>
@@ -118,7 +118,7 @@
                                 <div class="dropdown-item-desc">Specialized healthcare services</div>
                             </div>
                         </a>
-                        <a href="#additional" class="dropdown-item">
+                        <a href="services.php#additional" class="dropdown-item">
                             <div class="dropdown-item-icon">
                                 <i class="fas fa-plus-circle"></i>
                             </div>
