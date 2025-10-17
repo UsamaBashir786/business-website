@@ -1,18 +1,9 @@
-<?php
-session_start();
-if (!isset($_SESSION['user_id'])) {
-    header("Location: login.php");
-    exit();
-}
-
-$first_name = $_SESSION['first_name'];
-?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Successful</title>
+    <title>Thank You | Evolve Home & Care Solutions</title>
     <style>
         :root {
             --color-primary: #7B528F;
@@ -89,43 +80,22 @@ $first_name = $_SESSION['first_name'];
             line-height: 1.6;
         }
 
-        .buttons {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
         .btn {
-            padding: 12px 24px;
-            border: none;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-        }
-
-        .btn-primary {
+            display: inline-block;
+            padding: 12px 32px;
             background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
             color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
         }
 
-        .btn-primary:hover {
+        .btn:hover {
             transform: translateY(-2px);
             opacity: 0.9;
-        }
-
-        .btn-secondary {
-            background: var(--color-gray-100);
-            color: var(--color-primary);
-            border: 2px solid var(--color-primary);
-        }
-
-        .btn-secondary:hover {
-            background: var(--color-primary);
-            color: white;
         }
 
         @media (max-width: 600px) {
@@ -136,27 +106,15 @@ $first_name = $_SESSION['first_name'];
             h1 {
                 font-size: 22px;
             }
-
-            .buttons {
-                flex-direction: column;
-            }
-
-            .btn {
-                width: 100%;
-            }
         }
     </style>
 </head>
 <body>
     <div class="card">
         <div class="icon">✓</div>
-        <h1>Registration Successful!</h1>
-        <p class="subtitle">Your account has been created successfully. You're all set to get started.</p>
-        
-        <div class="buttons">
-            <a href="login.php" class="btn btn-primary">Go to Login</a>
-            <a href="dashboard.php" class="btn btn-secondary">Dashboard</a>
-        </div>
+        <h1>Thank You!</h1>
+        <p class="subtitle">Your message has been successfully sent. We'll get back to you as soon as possible.</p>
+        <a href="index.php" class="btn">Return to Homepage</a>
     </div>
 </body>
 </html>
