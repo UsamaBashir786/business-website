@@ -102,24 +102,25 @@
 .logo-icon {
   width: 55px;
   height: 55px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     var(--color-primary) 0%,
     var(--color-primary-dark) 100%
-  );
+  ); */
+  background-color: transparent;
   border-radius: var(--radius-xl);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--text-white);
   font-size: var(--font-size-2xl);
-  box-shadow: var(--shadow-purple);
+  /* box-shadow: var(--shadow-purple); */
   transition: all var(--transition-base);
 }
 
 .logo:hover .logo-icon {
-  transform: rotate(10deg) scale(1.05);
-  box-shadow: var(--shadow-hover-purple);
+  /* transform: rotate(10deg) scale(1.05); */
+  /* box-shadow: var(--shadow-hover-purple); */
 }
 
 .logo-text {

@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit();
+}
+
+$first_name = $_SESSION['first_name'];
+?>
 <!doctype html>
 <html lang="en">
 
@@ -42,7 +51,6 @@
             color: var(--text-primary);
         }
 
-        /* Hero Section - Full Screen Split Design */
         .hero-section {
             position: relative;
             min-height: 100vh;
@@ -813,12 +821,15 @@
 
 <body>
     <?php include 'includes/navbar.php' ?>
+    
+    <div class="d-theme-none">
         <br>
         <br>
         <br>
         <br>
         <br>
         <br>
+    </div>
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="hero-left">

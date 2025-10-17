@@ -31,12 +31,30 @@
         <nav class="nav-container">
             <!-- Logo -->
             <a href="index.php" class="logo">
+                <style>
+                    .logo-icon{
+                        /* margin-left: -100px; */
+                        width: 400px;
+                        height: 100px;
+                        margin-top: 30px;
+                        background-color: transparent;
+                    }
+                    .logo-icon img{
+                        width: 100%;
+                    }
+                    @media (max-width:768px) {
+                        .logo-icon{
+                        width: 350px;
+                        height: 100px;
+                        margin-left: -56px;
+                        margin-top: 30px;
+                        background-color: transparent;
+                    }
+                    }
+        
+                </style>
                 <div class="logo-icon">
-                    <i class="fas fa-heart-pulse"></i>
-                </div>
-                <div class="logo-text">
-                    <span class="logo-title">Evolve Home & <br> Care Solutions</span>
-                    <span class="logo-subtitle">YOUR NEEDS OUR PRIORITY</span>
+                    <img src="../img/logo-v2.png" alt="">
                 </div>
             </a>
 
@@ -120,9 +138,9 @@
                 <li class="nav-item">
                     <a href="contact.php" class="nav-link">Contact Us</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="faqs.php" class="nav-link">FAQs</a>
-                </li>
+                </li> -->
             </ul>
 
             <!-- Navigation Actions -->
@@ -130,13 +148,13 @@
                 <button class="icon-btn" id="searchBtn" aria-label="Search">
                     <i class="fas fa-search"></i>
                 </button>
-                <a
+                <!-- <a
                     href="contact.php"
                     class="__display-none__at_ottf btn btn-primary"
                     onclick="window.location.href='login-register.php'">
                     <i class="fas fa-phone-alt"></i>
                     Get Started
-                </a>
+                </a> -->
                 <button class="icon-btn mobile-toggle" id="mobileToggle" aria-label="Menu">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -176,10 +194,7 @@
     <div class="mobile-header">
         <a href="#" class="logo">
             <div class="logo-icon">
-                <i class="fas fa-heart-pulse"></i>
-            </div>
-            <div class="logo-text">
-                <span class="logo-title">Care Services</span>
+                <img src="../img/logo-v2.png" alt="">
             </div>
         </a>
         <button class="mobile-close" id="mobileClose" aria-label="Close Menu">
